@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>后台</title>
+	<style>
+	html,body,.out{
+		height: 100%;
+		margin: 0 auto;
+		width: 100%;
+
+
+	}
+	.out{
+		/*width: 940px;*/
+		
+		display: flex;
+		flex-direction: column;
+		/*height: 1000px*/
+
+		
+	}
+	.title{
+		height: 100px;
+		background: teal;
+		/*margin-bottom: 10px;*/
+		display: flex;
+		flex-direction: row;
+		font-size: 20px;
+
+
+	}
+	.title>span{
+		line-height: 3em;
+		margin-left: 30px;
+	}
+	.content{
+	background: #c2e6dd;
+	flex-basis: 480px;
+	flex-grow: 1;
+	overflow-y: auto;
+	display: flex;
+	
+	
+	}
+	.left{
+		/*margin-top: 10px;*/
+		width: 100px;
+		background: #ededed;
+	}
+	.left li{
+		list-style: none;
+		height: 50px;
+		font-size:12px;
+		line-height: 50px;
+		border-bottom: 1px solid #ededed;
+		background: #fff;
+		text-align: center;
+		margin: 2px;
+		border-radius: 2px;
+
+	}
+	.left li:hover{
+		background-color: #c2e6dd;
+		margin-right: 0px;
+	}
+	.right{
+		flex: 1;
+		padding: 5px;
+		padding-bottom: 0;
+		background: #c2e6dd;
+		flex-direction: row;
+		overflow-y: auto;
+	}
+	.box{
+		height: 100%;
+		background: #fff;
+		border-radius: 3px;
+		padding:10px;
+	}
+
+	table{
+		text-align: center;
+		margin: 0 auto;
+		border-collapse: collapse;
+	}
+	table td{
+		width: 50px;
+		height: 20px;
+		font-size: 8px;
+		border: 1px solid #ededed;
+	}
+	table tr>td:last-child{
+		width: 80px;
+	}
+	table td>div{
+		float: left;
+		background: #eedede;
+		width: 40%;
+		margin: 3px;
+		border-radius: 5px;
+		font-size: 6px;
+		line-height: 2em;
+	}
+	table td>div:hover{
+		background: red;
+		color: #fff;
+	}
+	</style>
+</head>
+<body>
+	<div class="out">
+		<!--标题  -->
+		<div class="title"><span>学生管理系统</span></div>
+		<!--标题 end -->
+
+		<div class="content">
+		<!-- 内容区域 -->
+			<div class="left">
+				<li>学生管理</li>
+				<li>教师管理</li>
+				<li>课程管理</li>
+				<li>评教系统</li>
+				<li>选课系统</li>
+			</div>
+			<div class="right">
+			<div class="box">
+				<table>
+					<tbody>
+						<tr>
+							<td>姓名</td>
+							<td>性别</td>
+							<td>学号</td>
+							<td>学院</td>
+							<td>专业</td>
+							<td>年级</td>
+							<td>联系方式</td>
+							<td>家庭住址</td>
+							<td>操作</td>
+						</tr>
+						<tr>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td>
+								<div>添加</div>
+								<div>删除</div>
+							</td>
+						</tr>
+						<tr>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td>
+								<div>添加</div>
+								<div>删除</div>
+							</td>
+						</tr>
+						<tr>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td>
+								<div>添加</div>
+								<div>删除</div>
+							</td>
+						</tr>
+						<tr>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td>
+								<div>添加</div>
+								<div>删除</div>
+							</td>
+						</tr>
+						<tr>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td>
+								<div>添加</div>
+								<div>删除</div>
+							</td>
+						</tr>
+						<tr>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td>
+								<div>添加</div>
+								<div>删除</div>
+							</td>
+						</tr>
+						<tr>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td>
+								<div>添加</div>
+								<div>删除</div>
+							</td>
+						</tr>
+						<tr>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td>
+								<div>添加</div>
+								<div>删除</div>
+							</td>
+						</tr>
+						<tr>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td>
+								<div>添加</div>
+								<div>删除</div>
+							</td>
+						</tr>
+						<tr>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td>
+								<div>添加</div>
+								<div>删除</div>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+				
+				
+			</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
